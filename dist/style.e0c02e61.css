@@ -4,4 +4,9 @@
   box-sizing: border-box;
 }
 
+.nav-list {
+  height: 10vh;
+  display: flex;
+}
+
 /*# sourceMappingURL=/style.e0c02e61.css.map */
