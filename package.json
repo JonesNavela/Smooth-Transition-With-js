@@ -1,5 +1,6 @@
 {
   "name": "smooth-transition",
+  "homepage": "https://transition.layersavenuesoftware.co.za",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +13,7 @@
     "sass": "^1.26.10"
   },
   "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
     "gsap": "^3.5.1"
   }
 }
