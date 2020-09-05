@@ -20,13 +20,15 @@
   font-size: 18px;
 }
 
-.home {
+.home,
+.about {
   height: 90vh;
   position: absolute;
   width: 100%;
 }
 
-.home-content {
+.home-content,
+.about-content {
   height: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -39,10 +41,14 @@
     margin: 30px 0px;
   }
   p {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 
 .home {
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.about {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
